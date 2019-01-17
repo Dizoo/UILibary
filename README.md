@@ -1,5 +1,5 @@
 # UILibary
 
-###MarqueeView
+1.MarqueeView
+  可垂直翻，水平翻的滚动广告
 
-**可垂直翻、可水平翻的翻页公告**
