@@ -5,6 +5,9 @@
 2.[HorizontalPicker](https://github.com/adityagohad/HorizontalPicker)实现横向居中选中的Recycleview，自定义继承于LinearLayoutManager<br>
 
 ### 工具类<br>
-1.[Android工具类](https://github.com/Blankj/AndroidUtilCode)Android常用的工具类合集
+1.[Android工具类](https://github.com/Blankj/AndroidUtilCode)Android常用的工具类合集<br>
+
+### 技术博客<br>
+1.[RxJava操作符](https://juejin.im/post/5b17560e6fb9a01e2862246f)RxJava操作符的简单使用<br>
   
 
