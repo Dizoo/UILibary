@@ -1,4 +1,4 @@
-package com.dizoo.uilibary.utils;
+package com.dizoo.uilibary.view;
 
 import android.content.Context;
 import android.util.AttributeSet;

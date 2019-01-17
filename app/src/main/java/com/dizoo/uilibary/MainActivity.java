@@ -11,6 +11,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.dizoo.uilibary.adapter.HorizontalRvAdapter;
+import com.dizoo.uilibary.view.HorizontalLayoutManager;
+import com.dizoo.uilibary.view.MarqueeView;
 
 import java.util.ArrayList;
 import java.util.List;

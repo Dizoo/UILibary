@@ -1,4 +1,4 @@
-package com.dizoo.uilibary;
+package com.dizoo.uilibary.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -14,6 +14,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 import android.widget.ViewFlipper;
 
+import com.dizoo.uilibary.R;
 import com.dizoo.uilibary.utils.Utils;
 
 import java.util.ArrayList;
