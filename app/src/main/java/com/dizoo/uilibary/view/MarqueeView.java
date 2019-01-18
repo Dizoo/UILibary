@@ -15,7 +15,6 @@ import android.widget.TextView;
 import android.widget.ViewFlipper;
 
 import com.dizoo.uilibary.R;
-import com.dizoo.uilibary.utils.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
