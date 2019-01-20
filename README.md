@@ -7,7 +7,8 @@
 
 ### 开源项目库<br>
 1.[Android工具类](https://github.com/Blankj/AndroidUtilCode)Android常用的工具类合集<br>
-2.[开源项目库](https://github.com/opendigg/awesome-github-android-ui)各种各样的开源项目合集<br>
+2.[开源项目库](https://github.com/opendigg/awesome-github-android-ui)优秀的的开源项目合集<br>
+3.[StatusBarUtil](https://github.com/laobie/StatusBarUtil)沉浸式的适配<br>
 
 
 ### 技术博客<br>
