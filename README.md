@@ -13,5 +13,6 @@
 
 ### 技术博客<br>
 1.[RxJava操作符](https://juejin.im/post/5b17560e6fb9a01e2862246f)RxJava操作符的简单使用<br>
+2.[Kotlin](https://github.com/huanglizhuo/kotlin-in-chinese)Kotlin内容<br>
   
 
