@@ -14,5 +14,6 @@
 ### 技术博客<br>
 1.[RxJava操作符](https://juejin.im/post/5b17560e6fb9a01e2862246f) RxJava操作符的简单使用<br>
 2.[Kotlin](https://github.com/huaqianlee/KotlinDemo) 有关Kotlin内容<br>
+3.[自定义View](https://github.com/GcsSloop/AndroidNote/tree/master/CustomView) 自定义控件学习<br>
   
 
