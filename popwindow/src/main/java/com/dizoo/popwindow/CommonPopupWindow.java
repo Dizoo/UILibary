@@ -1,4 +1,4 @@
-package com.dizoo.uilibary.view;
+package com.dizoo.popwindow;
 
 import android.content.Context;
 import android.view.Gravity;
@@ -21,12 +21,8 @@ public abstract class CommonPopupWindow {
     public CommonPopupWindow(Context c, int layoutRes, int w, int h) {
         context=c;
         contentView= LayoutInflater.from(c).inflate(layoutRes, null, false);
-
         initView();
-//        initEvent();
-
         mInstance=new PopupWindow(contentView, w, h, true);
-
         initWindow();
     }
 
@@ -154,52 +150,4 @@ public abstract class CommonPopupWindow {
     }
 }
 
-//    @Override
-//    public boolean dispatchTouchEvent(MotionEvent event) {
-//        if (successonPopupWindow != null) {
-//            if (successonPopupWindow.getPopupWindow() != null && successonPopupWindow.getPopupWindow().isShowing()) {
-//                return false;
-//            }
-//        }
-//        return super.dispatchTouchEvent(event);
-//
-//    }
 
-//    private void initClockSuccessPopWindow() {
-//        successonPopupWindow = new CommonPopupWindow(this, R.layout.early_clock_pop_success, ViewGroup.LayoutParams.WRAP_CONTENT,
-//                ViewGroup.LayoutParams.WRAP_CONTENT) {
-//            @Override
-//            protected void initView() {
-//                View view = getContentView();
-//                btClockSuccess = view.findViewById(R.id.btn_clock_success);
-//                btClockSuccess.setOnClickListener(new View.OnClickListener() {
-//                    @Override
-//                    public void onClick(View v) {
-//                        successonPopupWindow.getPopupWindow().dismiss();
-//                    }
-//                });
-//            }
-//
-//            @Override
-//            protected void initWindow() {
-//                super.initWindow();
-//                PopupWindow instance = getPopupWindow();
-//                instance.setOnDismissListener(new PopupWindow.OnDismissListener() {
-//                    @Override
-//                    public void onDismiss() {
-//                        WindowManager.LayoutParams lp = getWindow().getAttributes();
-//                        lp.alpha = 1.0f;
-//                        getWindow().clearFlags(WindowManager.LayoutParams.FLAG_DIM_BEHIND);
-//                        getWindow().setAttributes(lp);
-//                    }
-//                });
-//            }
-//        };
-//        PopupWindow popupWindow = successonPopupWindow.getPopupWindow();
-//        popupWindow.setAnimationStyle(R.style.animScale);
-//        successonPopupWindow.getPopupWindow().showAtLocation(llParent, Gravity.CENTER, 0, 0);
-//        WindowManager.LayoutParams lp = getWindow().getAttributes();
-//        lp.alpha = 0.5f;
-//        getWindow().addFlags(WindowManager.LayoutParams.FLAG_DIM_BEHIND);
-//        getWindow().setAttributes(lp);
-//    }
