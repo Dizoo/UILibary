@@ -20,21 +20,5 @@
             android:layout_width="wrap_content"
             android:layout_height="50dp">
            </android.support.v7.widget.RecyclerView>
-        <com.dizoo.uilibary.view.MarqueeView
-            android:id="@+id/marqueeView"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
-            app:mvAnimDuration="1000"
-            app:mvDirection="bottom_to_top"
-            app:mvInterval="3000"
-            android:layout_marginTop="30dp"
-            app:mvSingleLine="true"
-            android:background="#f9b5b5"
-            app:mvTextColor="#333"
-            android:layout_gravity="center_horizontal"
-            app:mvTextSize="15sp">
-
-        </com.dizoo.uilibary.view.MarqueeView>
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>

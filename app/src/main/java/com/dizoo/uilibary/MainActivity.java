@@ -12,7 +12,6 @@ import android.widget.Toast;
 
 import com.dizoo.uilibary.adapter.HorizontalRvAdapter;
 import com.dizoo.uilibary.view.HorizontalLayoutManager;
-import com.dizoo.uilibary.view.MarqueeView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -21,7 +20,6 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "UILibary";
     private RecyclerView mHorizontalRv;
-    private MarqueeView mMarqueeView;
     private List<String> horizontalRvList = new ArrayList<>();
     private List<String> marqueeViewList = new ArrayList<>();
 
@@ -32,21 +30,8 @@ public class MainActivity extends AppCompatActivity {
         findViewById();
         initData();
         initRv();
-        initMarqueeView();
     }
 
-    private void initMarqueeView() {
-        mMarqueeView.startWithList(marqueeViewList);
-        // 在代码里设置自己的动画
-        mMarqueeView.startWithList(marqueeViewList, R.anim.anim_bottom_in, R.anim.anim_top_out);
-        mMarqueeView.setOnItemClickListener(new MarqueeView.OnItemClickListener() {
-            @Override
-            public void onItemClick(int position, TextView textView) {
-                Toast.makeText(MainActivity.this,
-                        String.valueOf(mMarqueeView.getPosition()) + ". " + textView.getText(), Toast.LENGTH_SHORT).show();
-            }
-        });
-    }
 
 
     private void initRv() {
@@ -75,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void findViewById() {
         mHorizontalRv = findViewById(R.id.horizontal_rv);
-        mMarqueeView = findViewById(R.id.marqueeView);
     }
 
     private void initData() {
