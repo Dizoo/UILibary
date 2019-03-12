@@ -1,4 +1,4 @@
-package com.dizoo.uilibary.view;
+package com.dizoo.bottontablaout;
 
 import android.content.Context;
 import android.util.AttributeSet;

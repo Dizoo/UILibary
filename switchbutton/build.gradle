@@ -6,7 +6,7 @@ android {
 
 
     defaultConfig {
-        applicationId "com.dizoo.takephoto"
+        applicationId "com.dizoo.switchbutton"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
@@ -33,8 +33,4 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-    implementation  'com.lovedise:permissiongen:0.0.6'
-    implementation 'com.github.bumptech.glide:glide:4.9.0'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
-
 }

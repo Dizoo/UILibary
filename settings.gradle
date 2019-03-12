@@ -1,1 +1,1 @@
-include ':app', ':umengshare', ':takephoto', ':popwindow', ':imageload'
+include ':app', ':umengshare', ':takephoto', ':popwindow', ':imageload', ':switchbutton', ':bottontablaout'

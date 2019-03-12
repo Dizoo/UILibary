@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BottonTabLaout</string>
+    <string name="hot">首页</string>
+    <string name="mine">我的</string>
+</resources>
