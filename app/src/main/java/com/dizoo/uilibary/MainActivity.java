@@ -12,6 +12,8 @@ import android.widget.Toast;
 
 import com.dizoo.uilibary.adapter.HorizontalRvAdapter;
 import com.dizoo.uilibary.view.HorizontalLayoutManager;
+import com.tapadoo.alerter.Alert;
+import com.tapadoo.alerter.Alerter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,6 +32,16 @@ public class MainActivity extends AppCompatActivity {
         findViewById();
         initData();
         initRv();
+        findViewById(R.id.bt).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Alerter.create(MainActivity.this)
+                        .setTitle("Alert Title")
+                        .setText("Alert text...")
+                        .setBackgroundColorRes(R.color.colorAccent)
+                        .show();
+            }
+        });
     }
 
 

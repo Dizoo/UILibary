@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:overScrollMode="never"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+        <ImageView
+            android:background="#11E426"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:background="#E46511"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:background="#E46CEC"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:background="#E41111"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:background="#E4E011"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <ImageView
+        android:background="#B1B1AE"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <ImageView
+        android:background="#7311E4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <ImageView
+        android:background="#E4115B"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <ImageView
+        android:background="#11E434"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <ImageView
+        android:background="#CF11E4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    </LinearLayout>
+</ScrollView>

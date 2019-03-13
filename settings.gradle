@@ -1,1 +1,1 @@
-include ':app', ':umengshare', ':takephoto', ':popwindow', ':imageload', ':switchbutton', ':bottontablaout'
+include ':app', ':umengshare', ':takephoto', ':popwindow', ':imageload', ':switchbutton', ':bottontablaout', ':jdortbdetail'

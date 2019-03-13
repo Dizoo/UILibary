@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:background="#E41111"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <ImageView
+        android:background="#E4E011"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <ImageView
+        android:background="#CF11E4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <ImageView
+        android:background="#114DE4"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <ImageView
+        android:background="#E46511"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <ImageView
+        android:background="#11E4D2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <ImageView
+        android:background="#11E426"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <ImageView
+        android:background="#63A4F3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <ImageView
+        android:background="#E46CEC"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+    <TextView
+        android:id="@+id/tv_enter"
+        android:textColor="#333"
+        android:textSize="18sp"
+        android:text="点击进去下一层"
+        android:gravity="center"
+        android:background="#CDCECC"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+</LinearLayout>
