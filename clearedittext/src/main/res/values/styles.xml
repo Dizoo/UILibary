@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="ClearEditText">
+        <attr name="clearIcon" format="reference"/>
+        <attr name="scaleSize" format="float"/>
+        <attr name="drawableWidth" format="dimension"/>
+    </declare-styleable>
+
+</resources>

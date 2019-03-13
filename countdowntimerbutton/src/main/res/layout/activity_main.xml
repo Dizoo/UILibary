@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt"
+        android:text="点击"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <com.dizoo.countdowntimerbutton.CountDownTimerButton
+        android:id="@+id/countdown"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="获取验证码"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:background="@null"
+        app:countDown="60000"
+        app:countDownFormat="%ds"
+        app:countDownInterval="1000"
+        app:countDownColor="@color/colorPrimary"
+        app:normalColor="@color/colorAccent" />
+
+</LinearLayout>

@@ -1,1 +1,1 @@
-include ':app', ':umengshare', ':takephoto', ':popwindow', ':imageload', ':switchbutton', ':bottontablaout', ':jdortbdetail'
+include ':app', ':umengshare', ':takephoto', ':popwindow', ':imageload', ':switchbutton', ':bottontablaout', ':jdortbdetail', ':clearedittext', ':countdowntimerbutton', ':toobar', ':addview', ':roundbanner', ':radiobuttongrilayout'
