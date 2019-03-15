@@ -11,7 +11,7 @@
 2.[开源项目库](https://github.com/opendigg/awesome-github-android-ui) 优秀的的开源项目合集<br>
 3.[StatusBarUtil](https://github.com/laobie/StatusBarUtil) 沉浸式的适配<br>
 4.[AndroidAutoSize](https://github.com/JessYanCoding/AndroidAutoSize) 今日头条适配<br>
-5.[MVPArms](https://github.com/JessYanCoding/MVPArms) 一个强大的整个库<br>
+5.[MVPArms](https://github.com/JessYanCoding/MVPArms) 一个强大的整合库<br>
 
 ### 技术博客<br>
 1.[RxJava操作符](https://juejin.im/post/5b17560e6fb9a01e2862246f) RxJava操作符的简单使用<br>
