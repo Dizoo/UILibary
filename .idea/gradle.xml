@@ -8,25 +8,6 @@
         </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/addview" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/bottontablaout" />
-            <option value="$PROJECT_DIR$/clearedittext" />
-            <option value="$PROJECT_DIR$/countdowntimerbutton" />
-            <option value="$PROJECT_DIR$/imageload" />
-            <option value="$PROJECT_DIR$/jdortbdetail" />
-            <option value="$PROJECT_DIR$/popwindow" />
-            <option value="$PROJECT_DIR$/radiobuttongrilayout" />
-            <option value="$PROJECT_DIR$/roundbanner" />
-            <option value="$PROJECT_DIR$/switchbutton" />
-            <option value="$PROJECT_DIR$/takephoto" />
-            <option value="$PROJECT_DIR$/toobar" />
-            <option value="$PROJECT_DIR$/umengshare" />
-          </set>
-        </option>
         <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>

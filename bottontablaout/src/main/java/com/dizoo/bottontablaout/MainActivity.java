@@ -27,6 +27,12 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabCl
         setContentView(R.layout.activity_main);
         layoutTab = findViewById(R.id.llayout_tab);
         tab = findViewById(R.id.tab);
+        BottomBar bottomBar = findViewById(R.id.bottombar);
+        bottomBar.setContainer(R.id.fragment_container)
+                .setTitleBeforeAndAfterColor("#999999", "#ff5d5e")
+                .addItem(HotFragment.class,"首页",R.drawable.ic_loan_tab_selected,R.drawable.ic_loan_tab)
+                .addItem(HotFragment.class,"我的",R.drawable.ic_mine_tab_selected,R.drawable.ic_mine_tab)
+                .build();
         initTab();
         initFragment();
 //        setUpBottomTab();

@@ -17,6 +17,10 @@
         android:layout_width="match_parent"
         android:layout_height="46dp">
     </com.dizoo.bottontablaout.TabLayoutView>
+    <com.dizoo.bottontablaout.BottomBar
+        android:id="@+id/bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="46dp" />
     <com.dizoo.bottontablaout.TabLayout
         android:id="@+id/llayout_tab"
         android:layout_width="match_parent"
